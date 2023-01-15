@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="102dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/orangelogo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Subscription Details"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/customborder"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/StartDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Date: 1/1/2023"
+            android:textColor="@color/white"
+            android:textSize="25sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/EndDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End Date: 3/12/2023"
+            android:textColor="@color/white"
+            android:textSize="25sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/DaysLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Days Remaining: 352"
+            android:textColor="@color/white"
+            android:textSize="25sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/Type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type: Yearly Premium"
+            android:textColor="@color/white"
+            android:textSize="25sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tSessions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trainer Sessions: 4"
+            android:textColor="@color/white"
+            android:textSize="25sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/inBody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remaining In-body: 14"
+            android:textColor="@color/white"
+            android:textSize="25sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/invitations"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Invitations: 14"
+            android:textColor="@color/white"
+            android:textSize="25sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/freezeDays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Freeze Days Remaining: 60"
+            android:textColor="@color/white"
+            android:textSize="25sp">
+        </TextView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/HomeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Home"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/orange"
+        android:onClick="onHomeClick">
+    </Button>
+
+</LinearLayout>
