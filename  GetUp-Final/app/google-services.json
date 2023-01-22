@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "871706477909",
+    "project_id": "getup-a39b2",
+    "storage_bucket": "getup-a39b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871706477909:android:356cade372f79b2b4c1bdc",
+        "android_client_info": {
+          "package_name": "edu.aucegypt.getup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871706477909-tsohd75m1985f5rd6msvtn520r97kuio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB_uTOJ-oUxhQdFPP-_L-_FhJdfAxKpIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871706477909-tsohd75m1985f5rd6msvtn520r97kuio.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

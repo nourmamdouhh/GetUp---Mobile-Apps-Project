@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">GetUp</string>
+    <string-array name="muscles">
+        <item>Abdominals</item>
+        <item>Biceps</item>
+        <item>Brachioraialis</item>
+        <item>Deltoid</item>
+        <item>External Oblique</item>
+        <item>Finger Extensors</item>
+        <item>Finger Flexors</item>
+        <item>Gastrocnemius</item>
+        <item>Gluteus Maximus</item>
+        <item>Gluteus Medius</item>
+        <item>Hamstrings</item>
+        <item>Infraspinatus</item>
+        <item>Latissimus dorsi</item>
+        <item>Pectoralis Major</item>
+        <item>Sartorius</item>
+        <item>Soleus</item>
+        <item>Serratus Anterior</item>
+        <item>Tibialis Anterior</item>
+        <item>Trapezius</item>
+        <item>Triceps</item>
+        <item>Quadriceps</item>
+        <item>Abductors</item>
+    </string-array>
+
+    <string name="Primary"><b><u>Primary Muscles</u></b></string>
+    <string name="Secondary"><b><u>Secondary Muscles</u></b></string>
+
+</resources>
